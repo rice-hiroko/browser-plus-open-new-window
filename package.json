@@ -1,0 +1,24 @@
+{
+  "name": "browser-plus-open-new-window",
+  "main": "./lib/browser-plus-open-new-window",
+  "version": "0.0.1",
+  "description": "open link in new browser plus tab",
+  "keywords": [
+    "browser plus",
+    "open in new tab"
+  ],
+  "repository": "https://github.com/skandasoft/browser-plus-open-new-window",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "browser-plus": {
+      "versions": {
+        ">=0.0.0": "consumeAddPlugin"
+      }
+    }
+  },
+  "dependencies": {
+  }
+}
